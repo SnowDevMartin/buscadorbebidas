@@ -10,7 +10,7 @@ Utilizamos Axios para realizar fetching de una API externa, la API Key la gestio
 
 - **Vite**
 - **React**
-- **Bootstrap
+- **Bootstrap**
 - **Axios**
 - **Filtrado simple**
 - **Prettier**
