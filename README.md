@@ -1,8 +1,48 @@
-# React + Vite
+# 🍸 Buscador Bebidas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este mini proyecto es parte del curso 🎓 de Udemy impartido por Juan Pablo De la Torre Valdez sobre React.
 
-Currently, two official plugins are available:
+## Contenido del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Utilizamos Axios para realizar fetching de una API externa, la API Key la gestionamos con variable de entorno con la configuración de Vite, implementamos un filtrado simple para las categorías a realizar el fetching.
+
+## 🛠️ Herramientas Utilizadas
+
+- **Vite**
+- **React**
+- **Bootstrap
+- **Axios**
+- **Filtrado simple**
+- **Prettier**
+
+## 🚀 Despliegue
+
+Por desgracia la API Key no funciona por parte del proveedor en entornos de producción, por lo que si quieres ver la app en funcionamiento, te recomiendo descargarte el proyecto y probarlo tu mismo en local.
+El proyecto se encuentra desplegado y puede ser accedido a pesar de no funcionar por la API Key 🌐 [aquí](https://buscadorbebidas-eight.vercel.app/).
+
+## 🔧 Instrucciones de Uso
+Si deseas trabajar con el proyecto localmente, puedes clonar el repositorio:
+
+1. Clona el repositorio a tu máquina local.
+   ```bash
+   git clone https://github.com/SnowDevMartin/buscadorbebidas.git
+
+2. Instala las dependencias del proyecto.
+   ```bash
+   cd buscadorbebidas
+   npm install
+
+3. Inicia la aplicación en tu entorno de desarrollo local.
+   ```bash
+   npm run dev
+
+
+# 📋 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si encuentras problemas, tienes sugerencias o deseas agregar nuevas características, no dudes en abrir un problema o enviar un pull request.
+
+# 🧑‍💻 Autor
+
+Este proyecto fue creado por [Martin Fusalario] como parte del curso de React de Udemy impartido por Juan Pablo De la Torre Valdez.
+
+¡Gracias por revisar este proyecto! 🚀
